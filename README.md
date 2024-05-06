@@ -13,9 +13,11 @@ Pertama-tama, output "hey hey" dicetak karena itu ada di dalam blok main() yang 
 1.3. Multiple Spawn and removing drop
 
 Multiple Spawn and Removing Drop:
+
 ![image](https://github.com/Samuelwidjaja/tutorial10-timer/assets/119392779/524a6582-03b5-45e4-b0cf-5ee77b9cecb5)
 
 Multiple Spawn and Put Drop:
+
 ![image](https://github.com/Samuelwidjaja/tutorial10-timer/assets/119392779/7ed2b0dc-094d-46d1-ab66-a092a01b4c7c)
 
 Fungsi spawner.spawn(async { ... }) bertugas untuk menginisiasi tugas-tugas asinkron yang nantinya akan dieksekusi oleh Executor. Sementara itu, fungsi drop(spawner) bertugas untuk memberi tanda bahwa tidak akan ada lagi tugas yang akan dimasukkan ke dalam antrian tugas yang akan dieksekusi.
